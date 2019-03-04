@@ -1,5 +1,5 @@
 {
-  "name": "yt-simplemde-editor",
+  "name": "v-simplemde-editor",
   "version": "1.0.1",
   "description": "React SimpleMDE Markdown Editor",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yanthink/react-simplemde-editor.git"
+    "url": "git+https://github.com/fifsky/react-simplemde-editor.git"
   },
   "keywords": [
     "react",

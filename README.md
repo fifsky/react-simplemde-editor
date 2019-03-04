@@ -1,5 +1,7 @@
 ## React SimpleMDE Markdown Editor
 
+fork the https://github.com/yanthink/react-simplemde-editor
+
 ### 特性
 
 * 支持粘贴和拖拽上传图片。
@@ -9,7 +11,7 @@
 ### 安装
 
 ```
-npm install -S yt-simplemde-editor
+npm install -S v-simplemde-editor
 ```
 
 
