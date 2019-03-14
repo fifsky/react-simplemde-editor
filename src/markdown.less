@@ -246,9 +246,16 @@
       border: 0 none;
     }
 
-    ul,
-    ol {
-      padding-left: 2em;
+    ul > li {
+        margin-left: 20px;
+        padding-left: 4px;
+        list-style-type: circle;
+    }
+
+    ol > li {
+        margin-left: 20px;
+        padding-left: 4px;
+        list-style-type: decimal;
     }
 
     ol ol,
@@ -377,7 +384,7 @@
       padding: 14px;
       overflow: auto;
       line-height: 1.45;
-      background-color: #4e4e4e;
+      background-color: #f8f8f8;
       border-radius: 3px;
       color: #fff;
       border: none;
@@ -399,6 +406,7 @@
       word-wrap: normal;
       background-color: transparent;
       border: 0;
+      color: #c2627b;
     }
 
     pre code:before,

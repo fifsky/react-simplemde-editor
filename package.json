@@ -1,6 +1,6 @@
 {
   "name": "v-simplemde-editor",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "React SimpleMDE Markdown Editor",
   "main": "dist/index.js",
   "scripts": {

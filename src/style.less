@@ -47,8 +47,8 @@
     }
 
     img:not(.emoji) {
-      margin-left: 0;
-      max-width: 100%;
+      max-width: 60%;
+      box-shadow: 0 0 20px #ccc;
     }
 
     blockquote {
@@ -62,12 +62,22 @@
     }
 
     hr {
-      background: none;
-      height: auto;
-      border: 2px dashed #f0f4f6;
-      border-bottom: none;
-      margin: 18px auto;
-      width: 50%;
+      clear: both;
+      height: 1px;
+      margin: 18px 0;
+      background: #ebedf0;
+      border: 0;
+    }
+
+    .anchor {
+      margin-left: 8px;
+      opacity: 0;
+      -webkit-transition: opacity .3s ease;
+      transition: opacity .3s ease
+    }
+
+    h1:hover .anchor,h2:hover .anchor,h3:hover .anchor {
+        opacity: 1;
     }
   }
 }
